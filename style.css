@@ -33,7 +33,11 @@ body{
 
     }
 
-
+.filtr{
+   border-radius: 25%;
+   filter: sepia(75%); 
+   
+}
 
     .kolumny{
       margin-top: 10px;
