@@ -2,6 +2,8 @@
     *{
       margin: 0px;
       padding: 0px;
+       background: rgb(227,22,22);
+   background: linear-gradient(90deg, rgba(227,22,22,1) 0%, rgba(238,29,29,1) 10%, rgba(242,242,242,1) 67%);
     }
     section{
       overflow: hidden;
