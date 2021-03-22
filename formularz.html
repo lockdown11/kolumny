@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Sklep Piłkarski</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+        <div id="ramka">
+<header id="naglowek"> </header>
+             <section class="kolumny" id="kol1">
+                      <h3>Menu</h3>
+                      <ul>
+                          <li><a href="audio.html"><img src="AUDIO.jpg" alt="audio"></a></li>
+                          <li><a href="animacje.html"> <img src="ANIMACJE.jpg" alt="animacje"></a></li>
+                          <li><a href="mapa.html"><img src="MAPA.jpg" alt="mapa"></a></li>
+                          <li><a href="atrakcje.html"><img src="ATRAK.jpg" alt="atrakcje"></a></li>
+                        <li><a href="galeria.html"><img src="GAL.jpg" alt="galeria"></a></li>
+                      </ul>
+             </section>
+             <section class="kolumny" id="kol2"> 
+                      <h3>Konkurs</h3>
+
+
+<form name="Dane osobowe" id="dane" class="osobowe" action="mailto:adres" method="post" enctype="text/plain" target="_top" autocomplete="on">
+<label>Napisz coś o sobie: </label>  <textarea name="info" id="info" rows="6" cols="10" maxlength="300" title="napisz coś o sobie" required="required"></textarea><br>
+  <input name="nazwisko" id="nazwisko" type="text" value="nazwisko" size="15" maxlength="50" pattern="" placeholder="nazwisko" title="podaj nazwisko" required="required"><br>
+  <input name="imie" id="imie" type="text" value="imię" size="15" maxlength="10" pattern="" placeholder="imię" title="podaj imię" required="required"><br>
+  <input name="haslo" id="haslo" type="password" value="hasło" size="7" maxlength="7" pattern="" placeholder="hasło" title="podaj hasło" required="required"><br>
+<label>wybierz płeć: </label>
+  K<input name="plec" id="plec1" type="radio" value="płeć" title="wybierz płeć" required="required">
+  M<input name="plec" id="plec2" type="radio" value="płeć" title="wybierz płeć" required="required"><br>
+<label>wybierz ulubiony kolor: </label>
+biały<input name="kolor" id="kolor1" type="checkbox" value="kolor" title="zaznacz ulubiony kolor" required="required">
+zielony<input name="kolor" id="kolor2" type="checkbox" value="kolor" title="zaznacz ulubiony kolor" required="required">
+niebieski<input name="kolor" id="kolor3" type="checkbox" value="kolor" title="zaznacz ulubiony kolor" required="required">
+żółty<input name="kolor" id="kolor4" type="checkbox" value="kolor" title="zaznacz ulubiony kolor" required="required"><br>
+<label>wybierz datę urodzenia: </label>
+<input name="data_ur" id="data_urodzin" type="date"  title="podaj datę urodzin" required="required">
+  <br>
+<label>podaj godzinę urodzenia: </label>
+  <input name="czas_ur" id="czas_urodzin" type="time"  title="podaj godzinę urodzenia:" required="required"><br>
+
+  <input name="url" id="url" type="url"  size="20" maxlength="100" pattern="" placeholder="twoja www" title="wstaw adres twojej www" required="required"><br>
+  <input name="email" id="email" type="email"  size="20" maxlength="100" pattern="" placeholder="e-mail" title="wprowadź e-mail" required="required"><br>
+  <input name="szukaj" id="szukaj" type="search" value="szukaj" size="20" maxlength="100" pattern="" placeholder="szukaj treści" title="szukaj treści" required="required"><br>
+  <input name="tel" id="tel" type="tel" value="tel." size="12" maxlength="50" pattern="" placeholder="telefon" title="podaj nr telefonu" required="required"><br>
+<label>wybierz barwę: </label>
+  <input name="barwa" id="barwa" type="color" value="#0000FF"><br>
+<label>wybierz plik: </label>
+  <input name="plik" id="plik" type="file" title="wybierz i wyślij plik" required="required"><br>
+<hr>
+<label>podaj zakres liczb:</label>
+  <input name="liczba" id="liczba" type="number"  min="0" max="140" step="10" placeholder="" title="podaj zakres liczb" required="required"><br>
+<label>podaj pojemność silnika:</label>
+ 700 <input name="zakres" id="zakres" type="range"  min="700" max="7000" step="100" title="wybierz pojemność silnika">7000<br>
+ <label>wybierz ulubione danie:</label> 
+<select name="lista1" id="lista1" title="wybierz ulubione danie" required="required">
+<option selected value="">bigos</option>
+<option value="schabowy">schabowy</option>
+<option value="pierogi">pierogi</option>
+<option value="rosół">rosół</option>
+</select><br>
+<label>wybierz ulubiony napój:</label>
+  <select name="lista2" id="lista2" size="5" title="wybierz napój" required="required">
+<option value="woda">woda</option>
+<option value="sok">sok</option>
+<option value="coca-cola">coca-cola</option>
+<option value="kefir">kefir</option>
+<option value="piwo bezalkoholowe">piwo bezalkoholowe</option>
+</select><br>
+<label>wybierz ulubiony kontynent:</label>
+  <select name="lista3" id="lista3" size="4" multiple="multiple" title="ulubiony kontynent" required="required">
+<option value="Europa">Europa</option>
+<option value="Australia">Australia</option>
+<option value="Afryka">Afryka</option>
+<option value="Ameryka Północna">Ameryka Północna</option>
+</select><br>
+  <input name="przycisk" id="przycisk" type="button" value="Imię" title="przycisk akcji"><br>
+  <input name="wyczysc" id="wyczysc" type="reset" value="Wyczyść" title="wyczyść dane"><br>
+  <input name="wyslij" id="wyslij" type="submit" value="Wyślij" title="wyślij formularz"><br>
+</form>
+
+   
+             </section>
+             <footer id="stopka"><img src="logo.png" width="100px" height="100px">
+                 <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS!">
+                </a></footer>
+        </div>
+  </body>
+</html>
