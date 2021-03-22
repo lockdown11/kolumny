@@ -35,7 +35,8 @@ body{
 
 .filtr{
    border-radius: 25%;
-   filter: sepia(75%); 
+   filter: sepia(75%);
+   border: 15px ridge #ff0000;
    
 }
 
